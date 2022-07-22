@@ -14,6 +14,6 @@ const addPost=() =>{
     .then((json) => {
         console.log(json)
 
-        createUser(json.id)
+        addPost(json.id)
     });
 }
